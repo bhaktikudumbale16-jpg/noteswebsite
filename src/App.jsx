@@ -4,22 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-function App() {
+import Footer from "./components/Footer";
 
+function App() {
   return (
     <>
-
-<Navbar/>   
-<Home/>
-
-     
-     
-    
-     
-     
-    
+      {/* Your pages */}
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
